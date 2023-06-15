@@ -1,11 +1,9 @@
 import Button from "./Button";
 import { useState } from "react";
 export default function StartEndButton({
-  detector,
   start,
   end,
 }: {
-  detector: any;
   start: () => void;
   end: () => void;
 }) {
